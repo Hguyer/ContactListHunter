@@ -22,6 +22,19 @@ public class ContactList {
     }
 
     public void sort(int sortBy) {
+        for (int i = 0; i < contacts.size() - 1; i++) {
+            for (int j = 0; j < contacts.size() - i - 1; j++) {
 
+            }
+        }
+
+    }
+    public Person searchByFirstName(String firstName) {
+        for (Person contact : contacts) {
+            if (contact.getFirstName().equals(firstName.toLowerCase())) {
+                return contact;
+            }
+        }
+        return null;
     }
 }
