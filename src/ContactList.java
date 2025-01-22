@@ -109,15 +109,15 @@ public class ContactList {
                     }
                     break;
                 case 2:
-                    sort(0);  // Sort by first name
+                    sort(0);
                     printContacts();
                     break;
                 case 3:
-                    sort(1);  // Sort by last name
+                    sort(1);
                     printContacts();
                     break;
                 case 4:
-                    sort(2);  // Sort by phone number
+                    sort(2);
                     printContacts();
                     break;
                 case 5:
@@ -159,7 +159,7 @@ public class ContactList {
         } while (option != 0);
     }
     public static void main(String[] args) {
-                ContactList contactList = new ContactList();
-                contactList.run();
-            }
+        ContactList contactList = new ContactList();
+        contactList.run();
+    }
 }
